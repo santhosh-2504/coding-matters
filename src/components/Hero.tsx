@@ -14,7 +14,7 @@ export default function Hero() {
             <div className="inline-flex items-center gap-2 border border-indigo-200 px-3.5 py-1.5 bg-indigo-50/90 rounded-full shadow-sm">
               <span className="w-2 h-2 rounded-full bg-indigo-600 animate-pulse"></span>
               <span className="text-xs font-bold uppercase tracking-wider text-indigo-700">
-                1-ON-1 & SMALL GROUP CODING FOR KIDS (AGES 6-16)
+                1-ON-1 & SMALL GROUP CODING FOR KIDS
               </span>
             </div>
 
@@ -37,14 +37,6 @@ export default function Hero() {
               <div className="flex items-center gap-2 text-sm font-medium text-slate-700">
                 <CheckCircle2 className="w-4 h-4 text-indigo-600 shrink-0" />
                 <span>Hands-on ODC Projects Every Class</span>
-              </div>
-              <div className="flex items-center gap-2 text-sm font-medium text-slate-700">
-                <CheckCircle2 className="w-4 h-4 text-indigo-600 shrink-0" />
-                <span>Zero Adult Yapping or Bloat</span>
-              </div>
-              <div className="flex items-center gap-2 text-sm font-medium text-slate-700">
-                <CheckCircle2 className="w-4 h-4 text-indigo-600 shrink-0" />
-                <span>Patient 1-on-1 Kid Tutors</span>
               </div>
             </div>
 
