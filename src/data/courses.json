@@ -1,59 +1,44 @@
 [
   {
     "id": "js-kids-games",
-    "title": "JavaScript Web & Game Creator",
-    "badge": "JAVASCRIPT TRACK",
-    "level": "JavaScript (Ages 8-16)",
+    "title": "JavaScript",
     "duration": "6 Weeks",
     "schedule": "2 Sessions / Week",
-    "price": "$29",
+    "price": "₹ 4000",
     "period": "session",
-    "description": "Learn JavaScript by building colorful interactive games, web animations, and mini apps. No boring adult theory — just code and fun!",
+    "description": "Learn JavaScript by building colorful websites and mini apps. No boring adult theory — just code and fun!",
     "topics": [
       "JS Fun Basics: Variables, Conditionals & Loops",
-      "Interactive Web Buttons & Click Effects",
-      "Canvas 2D Animations & Game Physics",
-      "ODC Project: Build a Space Dodge Game in 1 Class",
-      "ODC Project: Build an Interactive Quiz App in 1 Class"
+      "Interactive Web Buttons & Click Effects"
     ],
-    "targetAudience": "Kids & teens eager to build web games and interactive apps with JavaScript."
+    "targetAudience": "Kids & teens eager to build websites and interactive apps with JavaScript."
   },
   {
     "id": "python-arcade",
-    "title": "Python Arcade & Turtle Logic",
-    "badge": "PYTHON TRACK",
-    "level": "Python (Ages 6-15)",
+    "title": "Python",
     "duration": "6 Weeks",
     "schedule": "2 Sessions / Week",
-    "price": "$29",
+    "price": "₹ 4000",
     "period": "session",
-    "description": "The easiest way for kids to start coding! Learn Python syntax, draw colorful Turtle graphics, and program classic arcade games.",
+    "description": "The easiest way for kids to start coding! Learn Python syntax and the core concepts of programming.",
     "topics": [
       "Python Basics: Easy Commands, Inputs & Loops",
-      "Turtle Graphics: Draw Shapes, Starfields & Spirals",
-      "Text Adventure Games & Smart Chatbots",
-      "ODC Project: Build a Classic Snake Game in 1 Class",
-      "ODC Project: Build a Math Challenge Bot in 1 Class"
+      "Python Mini-Project 1 - Rock Paper Scissors Game"
     ],
     "targetAudience": "Young beginners starting their coding journey with simple Python."
   },
   {
     "id": "java-creators",
-    "title": "Java Apps & Minecraft Logic",
-    "badge": "JAVA TRACK",
-    "level": "Java (Ages 10-16)",
+    "title": "Java",
     "duration": "6 Weeks",
     "schedule": "2 Sessions / Week",
-    "price": "$29",
+    "price": "₹ 4000",
     "period": "session",
-    "description": "Master real object-oriented Java! Discover how Java powers desktop apps, mobile games, and custom Minecraft mod scripts.",
+    "description": "Master real object-oriented Java! Discover how Java works by learning its core concepts.",
     "topics": [
       "Java Foundations: Data Types, Methods & Classes",
-      "Object-Oriented Programming (OOP) Made Simple",
-      "GUI Windows, Buttons & Interactive Canvas",
-      "ODC Project: Build a Tic-Tac-Toe Game in 1 Class",
-      "ODC Project: Build a Custom Minecraft Mod Script in 1 Class"
+      "Object-Oriented Programming (OOP) Made Simple"
     ],
-    "targetAudience": "Kids who want to master Java logic, app creation, and game mods."
+    "targetAudience": "Kids who want to master Java logic and excel their coding journey."
   }
 ]

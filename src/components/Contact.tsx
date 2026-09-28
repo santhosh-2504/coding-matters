@@ -103,7 +103,7 @@ export default function Contact() {
 
                   <div>
                     <label className="block text-xs uppercase text-slate-700 mb-2 font-bold">
-                      INTERESTED TRACK
+                      INTERESTED COURSE
                     </label>
                     <select
                       value={formData.course}

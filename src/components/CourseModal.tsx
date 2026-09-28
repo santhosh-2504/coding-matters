@@ -5,8 +5,6 @@ interface CourseModalProps {
   course: {
     id: string;
     title: string;
-    badge: string;
-    level: string;
     duration: string;
     schedule: string;
     price: string;
@@ -31,15 +29,10 @@ export default function CourseModal({ course, onClose }: CourseModalProps) {
         </button>
 
         <div>
-          <span className="text-[11px] uppercase tracking-wider bg-indigo-100 text-indigo-900 px-3 py-1 font-bold rounded-full border border-indigo-200">
-            {course.badge}
-          </span>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-3">
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
             {course.title}
           </h2>
           <div className="flex flex-wrap gap-4 mt-2 text-xs font-semibold text-slate-500">
-            <span>LEVEL: {course.level}</span>
-            <span>•</span>
             <span>DURATION: {course.duration}</span>
             <span>•</span>
             <span>SCHEDULE: {course.schedule}</span>

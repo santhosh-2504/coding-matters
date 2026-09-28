@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import coursesData from '@/data/courses.json';
-import { Check, ArrowUpRight, Clock, Sparkles } from 'lucide-react';
+import { ArrowUpRight, Clock } from 'lucide-react';
 import CourseModal from './CourseModal';
 
 export default function Courses() {
@@ -12,15 +12,8 @@ export default function Courses() {
 
   const filteredCourses = coursesData.filter((c) => {
     if (selectedFilter === 'ALL') return true;
-    return c.badge.toUpperCase().includes(selectedFilter) || c.title.toUpperCase().includes(selectedFilter);
+    return c.title.toUpperCase().includes(selectedFilter);
   });
-
-  const getBadgeStyle = (badge: string) => {
-    if (badge.includes('JAVASCRIPT')) return 'bg-amber-100 text-amber-900 border-amber-200';
-    if (badge.includes('PYTHON')) return 'bg-emerald-100 text-emerald-900 border-emerald-200';
-    if (badge.includes('JAVA')) return 'bg-purple-100 text-purple-900 border-purple-200';
-    return 'bg-indigo-100 text-indigo-900 border-indigo-200';
-  };
 
   return (
     <section id="courses" className="bg-white text-slate-900 py-16 md:py-20 border-b border-slate-200">
@@ -28,10 +21,10 @@ export default function Courses() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 pb-6 border-b border-slate-200 gap-6">
           <div>
             <div className="text-xs uppercase font-bold tracking-wider text-indigo-600 mb-2">
-              KIDS CODING TRACKS (JS • PYTHON • JAVA)
+              KIDS CODING COURSES (JS • PYTHON • JAVA)
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-slate-900">
-              OUR KIDS CODING TRACKS & ODC PROJECTS
+              CODING COURSES & ODC PROJECTS
             </h2>
           </div>
 
@@ -60,40 +53,17 @@ export default function Courses() {
             >
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <span className={`text-[11px] font-bold uppercase tracking-wider border px-3 py-1 rounded-full ${getBadgeStyle(course.badge)}`}>
-                    {course.badge}
-                  </span>
+                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">
+                    {course.title}
+                  </h3>
                   <span className="text-xs text-slate-500 font-medium flex items-center gap-1 bg-white border border-slate-200 px-2.5 py-1 rounded-lg">
                     <Clock className="w-3.5 h-3.5 text-indigo-600" /> {course.duration}
                   </span>
                 </div>
 
-                <div className="mb-3">
-                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">
-                    {course.title}
-                  </h3>
-                  <div className="text-xs font-semibold text-slate-500 mt-1">
-                    {course.level}
-                  </div>
-                </div>
-
                 <p className="text-sm text-slate-600 mb-6 leading-relaxed">
                   {course.description}
                 </p>
-
-                <div className="space-y-2 mb-6 border-t border-b border-slate-200 py-4">
-                  <div className="text-xs uppercase text-slate-900 font-bold mb-2 flex items-center gap-1.5">
-                    <Sparkles className="w-3.5 h-3.5 text-indigo-600" /> TOPICS & ODC PROJECTS:
-                  </div>
-                  {course.topics.map((topic, i) => (
-                    <div key={i} className="flex items-start gap-2 text-xs text-slate-700">
-                      <Check className="w-4 h-4 text-indigo-600 shrink-0 mt-0.5" />
-                      <span className={topic.includes('ODC') ? 'text-indigo-900 font-bold bg-indigo-50 px-1.5 py-0.5 rounded' : ''}>
-                        {topic}
-                      </span>
-                    </div>
-                  ))}
-                </div>
 
                 <div className="text-xs text-slate-600 mb-6 bg-white p-3 rounded-xl border border-slate-200">
                   <span className="text-slate-900 font-bold uppercase">Audience:</span> {course.targetAudience}

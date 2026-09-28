@@ -29,17 +29,6 @@ export default function Hero() {
               {siteConfig.heroSubheadline}
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-              <div className="flex items-center gap-2 text-sm font-medium text-slate-700">
-                <CheckCircle2 className="w-4 h-4 text-indigo-600 shrink-0" />
-                <span>Strictly JS, Python & Java</span>
-              </div>
-              <div className="flex items-center gap-2 text-sm font-medium text-slate-700">
-                <CheckCircle2 className="w-4 h-4 text-indigo-600 shrink-0" />
-                <span>Hands-on ODC Projects Every Class</span>
-              </div>
-            </div>
-
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
               <a
                 href="#contact"
