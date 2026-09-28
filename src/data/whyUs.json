@@ -1,0 +1,50 @@
+[
+  {
+    "id": "card-1",
+    "iconName": "UserCheck",
+    "badge": "01 // FOR KIDS ONLY",
+    "title": "Patient 1-on-1 & Small Kids Groups",
+    "description": "No boring adult lectures or scary jargon! Kids get dedicated attention, fun screen-sharing, and learn at their own comfortable pace.",
+    "highlight": "Max 4 Kids Per Group"
+  },
+  {
+    "id": "card-2",
+    "iconName": "Code2",
+    "badge": "02 // 100% HANDS-ON",
+    "title": "ODC (One-Day Code) Projects",
+    "description": "In every session, kids build and complete a full mini-game or app in just 1 day! Instant results that boost their confidence.",
+    "highlight": "Complete Game Every Session"
+  },
+  {
+    "id": "card-3",
+    "iconName": "Terminal",
+    "badge": "03 // TOP 3 LANGUAGES",
+    "title": "JavaScript, Python & Java Only",
+    "description": "We focus strictly on the top 3 kid-friendly coding languages so kids build a strong foundation without confusion.",
+    "highlight": "JS • Python • Java"
+  },
+  {
+    "id": "card-4",
+    "iconName": "Clock",
+    "badge": "04 // FLEXIBLE SCHEDULE",
+    "title": "After-School & Weekend Classes",
+    "description": "Easy scheduling around school hours, homework, and sports. Includes session recordings so kids never miss a step.",
+    "highlight": "Flexible Hours"
+  },
+  {
+    "id": "card-5",
+    "iconName": "ShieldCheck",
+    "badge": "05 // PARENT UPDATES",
+    "title": "Friendly Progress Reports",
+    "description": "Parents get quick weekly updates and video clips of what their child built, celebrating every milestone along the way.",
+    "highlight": "Weekly Parent Reports"
+  },
+  {
+    "id": "card-6",
+    "iconName": "Zap",
+    "badge": "06 // ZERO BLOAT",
+    "title": "Simple & Interactive",
+    "description": "Zero bloat, zero heavy textbook reading. Kids jump straight into writing code, running games, and seeing immediate magic on screen!",
+    "highlight": "Fun & Fast Learning"
+  }
+]

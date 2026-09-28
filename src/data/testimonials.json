@@ -1,0 +1,20 @@
+[
+  {
+    "quote": "I built my own Python Snake game in just one day during an ODC session! Coding class with my tutor is my absolute favorite hour of the week.",
+    "name": "Maya S.",
+    "role": "Student (Age 11)",
+    "achievement": "Built Python Snake Game"
+  },
+  {
+    "quote": "My 9-year-old son loved learning JavaScript. The 1-day ODC projects keep him super excited because he sees real working games right away!",
+    "name": "David Miller",
+    "role": "Parent of 4th Grader",
+    "achievement": "Completed 6 ODC Projects"
+  },
+  {
+    "quote": "Learning Java was awesome. My tutor made object concepts so simple without any adult yapping or boring math textbook stuff.",
+    "name": "Leo K.",
+    "role": "Student (Age 14)",
+    "achievement": "Created Java App"
+  }
+]

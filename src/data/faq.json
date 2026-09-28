@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Is this tutoring program strictly for kids?",
+    "answer": "Yes! Our entire program is built only for kids and teens (ages 6 to 16). We don't teach adults, and we skip boring corporate jargon."
+  },
+  {
+    "question": "What coding languages do kids learn?",
+    "answer": "We focus strictly on JavaScript, Python, and Java. These top 3 languages give kids the ultimate base to create web games, graphics, and apps."
+  },
+  {
+    "question": "What are ODC Projects?",
+    "answer": "ODC stands for One-Day Code Projects! In these fun sessions, kids build and finish a complete mini-game or app in just 1 day to see instant results."
+  },
+  {
+    "question": "Does my child need any prior coding experience?",
+    "answer": "Zero prior experience is needed! We start with simple visual steps and easy code blocks, guiding them step-by-step."
+  },
+  {
+    "question": "How are live 1-on-1 sessions held?",
+    "answer": "Classes run live over Zoom or Google Meet with friendly tutors, interactive screen sharing, and hands-on code building."
+  }
+]
