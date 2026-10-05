@@ -33,30 +33,24 @@ export default function WhyUs() {
             return (
               <div
                 key={item.id}
-                className="bg-white border border-slate-200/80 rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:shadow-md hover:border-slate-300 transition-all group"
+                className="bg-white border border-slate-200/80 rounded-2xl p-6 sm:p-8 flex flex-col hover:shadow-md hover:border-slate-300 transition-all group"
               >
-                <div>
-                  <div className="flex items-center justify-between mb-6">
-                    <div className="p-3 bg-indigo-50 text-indigo-600 rounded-xl group-hover:bg-indigo-600 group-hover:text-white transition-colors">
-                      <IconComponent className="w-6 h-6" />
-                    </div>
-                    <span className="text-xs font-bold text-indigo-600 uppercase tracking-wider bg-indigo-50 px-2.5 py-1 rounded-full">
-                      {item.badge}
-                    </span>
+                <div className="flex items-center justify-between mb-6">
+                  <div className="p-3 bg-indigo-50 text-indigo-600 rounded-xl group-hover:bg-indigo-600 group-hover:text-white transition-colors">
+                    <IconComponent className="w-6 h-6" />
                   </div>
-
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">
-                    {item.title}
-                  </h3>
-
-                  <p className="text-sm text-slate-600 leading-relaxed mb-6">
-                    {item.description}
-                  </p>
+                  <span className="text-xs font-bold text-indigo-600 uppercase tracking-wider bg-indigo-50 px-2.5 py-1 rounded-full">
+                    {item.badge}
+                  </span>
                 </div>
 
-                <div className="text-xs uppercase font-bold text-slate-800 bg-slate-100 border border-slate-200 px-3 py-2 text-center rounded-xl">
-                  {item.highlight}
-                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">
+                  {item.title}
+                </h3>
+
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  {item.description}
+                </p>
               </div>
             );
           })}

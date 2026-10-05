@@ -4,47 +4,41 @@
     "iconName": "Code2",
     "badge": "01 // LEARN TO CODE",
     "title": "Build Strong Programming Fundamentals",
-    "description": "Start with the basics and gradually learn programming logic, problem-solving, and how to write code that actually works.",
-    "highlight": "Logic • Basics • Problem Solving"
+    "description": "Start with the basics and gradually learn programming logic, problem-solving, and how to write code that actually works."
   },
   {
     "id": "card-2",
     "iconName": "Brain",
     "badge": "02 // THINK IN CODE",
     "title": "Understand the Logic Behind Code",
-    "description": "Instead of just memorizing syntax, learn how to break problems down, think through solutions, and turn your ideas into working code.",
-    "highlight": "Logic • Reasoning • Problem Solving"
+    "description": "Instead of just memorizing syntax, learn how to break problems down, think through solutions, and turn your ideas into working code."
   },
   {
     "id": "card-3",
     "iconName": "Lightbulb",
     "badge": "03 // LEARN BY BUILDING",
     "title": "Put Your Learning Into Practice",
-    "description": "After learning the fundamentals, apply them through small practical projects that help you understand how programming concepts work together.",
-    "highlight": "Learn → Build → Understand"
+    "description": "After learning the fundamentals, apply them through small practical projects that help you understand how programming concepts work together."
   },
   {
     "id": "card-4",
     "iconName": "Zap",
     "badge": "04 // ODC",
     "title": "One-Day Code Projects",
-    "description": "ODC sessions are dedicated project days. Instead of learning new theory, you use what you've already learned to build a project from start to finish.",
-    "highlight": "A Day of Building"
+    "description": "ODC sessions are dedicated project days. Instead of learning new theory, you use what you've already learned to build a project from start to finish."
   },
   {
     "id": "card-5",
     "iconName": "Briefcase",
     "badge": "05 // REAL-WORLD CONTEXT",
     "title": "Learn Beyond the Textbook",
-    "description": "Get practical insights from real software development, including how the concepts you learn are actually used when building software.",
-    "highlight": "Real Developer Experience"
+    "description": "Get practical insights from real software development, including how the concepts you learn are actually used when building software."
   },
   {
     "id": "card-6",
     "iconName": "Users",
     "badge": "06 // LEARNING FORMAT",
     "title": "Learn Individually or Together",
-    "description": "Choose between individual classes or small-group learning, depending on what works better for you.",
-    "highlight": "1-on-1 • Small Groups"
+    "description": "Choose between individual classes or small-group learning, depending on what works better for you."
   }
 ]
