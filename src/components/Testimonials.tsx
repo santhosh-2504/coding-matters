@@ -11,7 +11,7 @@ export default function Testimonials() {
             PROVEN OUTCOMES
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-slate-900">
-            KIDS & PARENT REVIEWS
+            REVIEWS
           </h2>
         </div>
 
