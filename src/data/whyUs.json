@@ -1,50 +1,50 @@
 [
   {
     "id": "card-1",
-    "iconName": "UserCheck",
-    "badge": "01 // FOR KIDS ONLY",
-    "title": "Patient 1-on-1 & Small Kids Groups",
-    "description": "No boring adult lectures or scary jargon! Kids get dedicated attention, fun screen-sharing, and learn at their own comfortable pace.",
-    "highlight": "Max 4 Kids Per Group"
+    "iconName": "Code2",
+    "badge": "01 // LEARN TO CODE",
+    "title": "Build Strong Programming Fundamentals",
+    "description": "Start with the basics and gradually learn programming logic, problem-solving, and how to write code that actually works.",
+    "highlight": "Logic • Basics • Problem Solving"
   },
   {
     "id": "card-2",
-    "iconName": "Code2",
-    "badge": "02 // 100% HANDS-ON",
-    "title": "ODC (One-Day Code) Projects",
-    "description": "In every session, kids build and complete a full mini-game or app in just 1 day! Instant results that boost their confidence.",
-    "highlight": "Complete Game Every Session"
+    "iconName": "Brain",
+    "badge": "02 // THINK IN CODE",
+    "title": "Understand the Logic Behind Code",
+    "description": "Instead of just memorizing syntax, learn how to break problems down, think through solutions, and turn your ideas into working code.",
+    "highlight": "Logic • Reasoning • Problem Solving"
   },
   {
     "id": "card-3",
-    "iconName": "Terminal",
-    "badge": "03 // TOP 3 LANGUAGES",
-    "title": "JavaScript, Python & Java Only",
-    "description": "We focus strictly on the top 3 kid-friendly coding languages so kids build a strong foundation without confusion.",
-    "highlight": "JS • Python • Java"
+    "iconName": "Lightbulb",
+    "badge": "03 // LEARN BY BUILDING",
+    "title": "Put Your Learning Into Practice",
+    "description": "After learning the fundamentals, apply them through small practical projects that help you understand how programming concepts work together.",
+    "highlight": "Learn → Build → Understand"
   },
   {
     "id": "card-4",
-    "iconName": "Clock",
-    "badge": "04 // FLEXIBLE SCHEDULE",
-    "title": "After-School & Weekend Classes",
-    "description": "Easy scheduling around school hours, homework, and sports. Includes session recordings so kids never miss a step.",
-    "highlight": "Flexible Hours"
+    "iconName": "Zap",
+    "badge": "04 // ODC",
+    "title": "One-Day Code Projects",
+    "description": "ODC sessions are dedicated project days. Instead of learning new theory, you use what you've already learned to build a project from start to finish.",
+    "highlight": "A Day of Building"
   },
   {
     "id": "card-5",
-    "iconName": "ShieldCheck",
-    "badge": "05 // PARENT UPDATES",
-    "title": "Friendly Progress Reports",
-    "description": "Parents get quick weekly updates and video clips of what their child built, celebrating every milestone along the way.",
-    "highlight": "Weekly Parent Reports"
+    "iconName": "Briefcase",
+    "badge": "05 // REAL-WORLD CONTEXT",
+    "title": "Learn Beyond the Textbook",
+    "description": "Get practical insights from real software development, including how the concepts you learn are actually used when building software.",
+    "highlight": "Real Developer Experience"
   },
   {
     "id": "card-6",
-    "iconName": "Zap",
-    "badge": "06 // ZERO BLOAT",
-    "title": "Simple & Interactive",
-    "description": "Zero bloat, zero heavy textbook reading. Kids jump straight into writing code, running games, and seeing immediate magic on screen!",
-    "highlight": "Fun & Fast Learning"
+    "iconName": "Users",
+    "badge": "06 // LEARNING FORMAT",
+    "title": "Learn Individually or Together",
+    "description": "Choose between individual classes or small-group learning, depending on what works better for you.",
+    "highlight": "1-on-1 • Small Groups"
   }
 ]
