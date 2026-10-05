@@ -1,12 +1,11 @@
 {
-  "brandName": "CODING MATTERS FOR KIDS",
-  "tagline": "Fun 1-on-1 & Small Group Coding Tutor for Kids",
-  "heroHeadline": "FUN CODING FOR KIDS.\nMASTER JS, PYTHON & JAVA.",
-  "heroSubheadline": "Live 1-on-1 & small group coding sessions for kids. Build real ODC projects every single class!",
+  "brandName": "CODING MATTERS",
+  "tagline": "Fun 1-on-1 & Small Group Coding Tutor",
+  "heroHeadline": "FUN CODING.\nMASTER JS, PYTHON & JAVA.",
+  "heroSubheadline": "Live 1-on-1 & small group coding sessions. Build real projects every single class!",
   "contact": {
-    "email": "santhoshanantha58@gmail.com",
+    "email": "[EMAIL_ADDRESS]",
     "phone": "+91 9014185655",
-    "location": "Live Online Interactive Kids Tutor",
     "workingHours": "Mon - Sat: 10:00 AM - 8:00 PM"
   },
   "navLinks": [

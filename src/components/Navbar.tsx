@@ -19,7 +19,7 @@ export default function Navbar() {
                 {siteConfig.brandName}
               </span>
               <span className="block text-[11px] font-semibold text-indigo-600 tracking-wider uppercase">
-                JS • PYTHON • JAVA FOR KIDS
+                JS • PYTHON • JAVA
               </span>
             </div>
           </a>

@@ -14,12 +14,12 @@ export default function Hero() {
             <div className="inline-flex items-center gap-2 border border-indigo-200 px-3.5 py-1.5 bg-indigo-50/90 rounded-full shadow-sm">
               <span className="w-2 h-2 rounded-full bg-indigo-600 animate-pulse"></span>
               <span className="text-xs font-bold uppercase tracking-wider text-indigo-700">
-                1-ON-1 & SMALL GROUP CODING FOR KIDS
+                1-ON-1 & SMALL GROUP CODING
               </span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight text-slate-900">
-              FUN CODING FOR KIDS.<br />
+              FUN CODING.<br />
               <span className="text-indigo-600 bg-indigo-50 px-3 py-1 rounded-2xl inline-block mt-2">
                 LEARN JS, PYTHON & JAVA.
               </span>
