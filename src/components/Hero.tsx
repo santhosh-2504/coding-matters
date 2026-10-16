@@ -21,7 +21,7 @@ export default function Hero() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight text-slate-900">
               FUN CODING.<br />
               <span className="text-indigo-600 bg-indigo-50 px-3 py-1 rounded-2xl inline-block mt-2">
-                LEARN JS, PYTHON & JAVA.
+                Learn to code with practical project based tutorials
               </span>
             </h1>
 
